@@ -13,6 +13,15 @@ nav{
   
 
 }
+.navbar-toggler {
+    
+    background-color: transparent;
+  } 
+
+  .icon-bar{
+
+    color: white;
+  }
 
 .custom-logo{
 position: absolute;
