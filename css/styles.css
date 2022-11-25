@@ -9,11 +9,21 @@ nav{
 
 .navbar-brand {
     color: #fff;
+    
   
 
 }
 
+.custom-logo{
+position: absolute;
+top: -35px;
+}
 
+custom-log-xs{
+
+display: flex;
+
+justify-content: start;}
 
 .nav-link{
 color: white;
@@ -21,3 +31,18 @@ text-decoration: none;
 
 }
 
+.nav-link:hover{
+
+color: rgb(216, 20, 20);
+}
+
+
+
+nav h1 {
+font-family: Montserrat;
+color: #ffff;
+font-size: medium;
+position: absolute;
+right: -40px;
+left: 22vw;
+}
