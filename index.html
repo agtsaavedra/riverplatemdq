@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- Bootstrap ICON-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen">
 
 
@@ -80,25 +81,25 @@
         </div>
       </section>
     <!-- Inicio de container principal index-->
-      <div class="container container-index">
-          <div class="row gap-2 justify-content-center">
+      <div class="container" >
+          <div class="row">
             <!-- Contenedor de proximos partidos-->
-            <div class="col-12 col-md-3 container-proxpartido border rounded border-opacity-25 h-100 p-3">
+            <div class="col-12 col-md-3 border rounded text-center border-opacity-25 p-3 m-3">
               <section  class="section-proxpartido">
-              <h3 class="fs-6"><strong>Liga Marplatense de Futbol </strong> <i>•</i> Dom. 26/12/22 - 17 hs.</h3>
+              <h3 class="fs-6 text-center"><strong>Liga Marplatense de Futbol </strong> <i>•</i></h3> <h4> Dom. 26/12/22 - 17 hs. </h4>
                 <div  class="escudos-proxpartido">
-              <img src="./img/logo-river.png " class="img-prox-partido">
+              <img src="./img/logo-river.png " class="img-prox-partido rounded">
                       vs. 
-              <img src="./img/talleresmdq.png" class="img-prox-partido">
+              <img src="./img/talleresmdq.png" class="img-prox-partido rounded">
               </div>
             <span class="stadium-text">Estadio Jose Maria Minella (Mar del Plata)</span>
-            
+            <img src="./img/mundialista.jpg" class="img-fluid text-center rounded p-3">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25148.579786983377!2d-57.58032059606025!3d-38.01043145188503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dec231f9c62f%3A0x90bb4b8884923563!2sEstadio%20Jos%C3%A9%20Mar%C3%ADa%20Minella!5e0!3m2!1ses!2sar!4v1669606264193!5m2!1ses!2sar" class="img-fluid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </section>
             </div>
         
           <!-- Contenedor de noticias destacadas con carrousel-->
-        <div class="col-12 col-md-6 border rounded border-opacity-25 p-3" >
+        <div class="col-12 col-md-6 border rounded border-opacity-25 p-3  m-3" >
           <h2>Noticias Destacadas</h2>
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -140,15 +141,15 @@
           </div>
         </div>
       
-          
-          <div class="col-12 col-md-2 border rounded border-opacity-25 p-3 h-100">
-            <h2> Hacete Socio!</h2>
-            <img src="./img/socio-gif.gif" class="img-fluid">
-            </div>
-        
+          <!-- Contenedor de publis -->
+          <div class="col-12 col-md-2 border rounded border-opacity-25 h-100 m-3 text-center">
+            <img src="./img/socio.jpg" class="img-fluid text-center rounded p-3">
+            <img src="./img/publi-nazavidrios.jpg" class="img-fluid text-center rounded p-3">
+            <img src="./img/publi-as.png" class="img-fluid text-center rounded p-3">
+            <img src="./img/opensports-publi.png" class="img-fluid text-center rounded p-3">
           </div>
+        </div>
       </div>
-
 
 
 
@@ -156,7 +157,7 @@
  <!-- Inicio del footer-->
     <footer class="text-white text-center border-top">
       <div class="container">
-        <div class="row">
+        <div class="row p-3">
           <div class="col-12 col-md-6">
             <a href="./index.html" class="logo" title="River Plate - Mar del Plata">
         <img src="./img/logo-river-foot.png" class="img-fluid">
@@ -167,6 +168,7 @@
             class="btn text-white btn-floating m-1"         
             href="https://www.facebook.com/RiverMdPOK"
             role="button"
+            target="_blank"
             ><i class="bi bi-facebook"></i
           ></a>
 
@@ -174,6 +176,7 @@
             class="btn text-white btn-floating m-1"    
             href="https://twitter.com/riverdemdp"
             role="button"
+            target="_blank"
             ><i class="bi bi-twitter"></i
           ></a>
 
@@ -181,6 +184,7 @@
             class="btn text-white btn-floating m-1"    
             href="https://www.google.com/search?q=river+plate+mar+del+plata&rlz=1C1CHBD_esAR902AR902&oq=river+plate+mar+del+plata&aqs=chrome.0.69i59l3j69i61l2.3885j0j7&sourceid=chrome&ie=UTF-8"
             role="button"
+            target="_blank"
             ><i class="bi bi-google"></i
           ></a>
 
@@ -188,6 +192,7 @@
             class="btn text-white btn-floating m-1"       
             href="https://www.instagram.com/rivermdp/?hl=es"
             role="button"
+            target="_blank"
             ><i class="bi bi-instagram"></i></i
           ></a>
 
