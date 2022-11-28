@@ -1,6 +1,13 @@
+body{
+
+  font-family: Montserrat;
+}
+
+h6{
+  font-weight: bold;
 
 
-
+}
 nav{
 
     background-color: #1f1f1f;
@@ -28,8 +35,6 @@ position: absolute;
 top: -35px;
 }
 
-custom-log-xs{
-}
 
 .nav-link{
 color: white;
@@ -63,4 +68,51 @@ height: 32vw;
 .text-slider{
 
   color: #1f1f1f;
+}
+
+main p {
+
+  color: #f8f8f8;
+
+}
+
+main h5 {
+
+  color: #f8f8f8;
+}
+
+.carousel-caption{
+
+  background-color: #1f1f1f6c;
+}
+
+.container-index {
+
+ padding-top: 2vh;
+}
+
+.prox-partido {
+
+  color: #000000;
+  background-color: #c6c6c6c6;
+  border-radius: 5%;
+  padding: 2%;
+  margin: 2%;
+  
+}
+
+.img-prox-partido{
+  height: 90px;
+  width: 80px;
+}
+
+footer {
+  padding-top: 5vh;
+  background-color: #191919;
+  border-top: #4646467a;
+}
+
+.carousel-inner img {
+height: 100%;
+
 }
