@@ -47,7 +47,9 @@ text-decoration: none;
 color: rgb(216, 20, 20);
 }
 
-
+main{
+  font-family: Montserrat;
+}
 
 nav h1 {
 font-family: Montserrat;
@@ -91,6 +93,25 @@ main h5 {
  padding-top: 2vh;
 }
 
+.section-proxpartido{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
+}
+
+.escudos-proxpartido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stadium-text{
+
+  text-align: center;
+}
 .prox-partido {
 
   color: #000000;
@@ -102,8 +123,11 @@ main h5 {
 }
 
 .img-prox-partido{
-  height: 90px;
-  width: 80px;
+  height: 80px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer {
