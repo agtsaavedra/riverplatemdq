@@ -1,142 +1,123 @@
-body{
-
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-h6{
+h6 {
   font-weight: bold;
-
-
-}
-nav{
-
-    background-color: #1f1f1f;
-    font-family: 'Montserrat', sans-serif;
 }
 
-main h4{
+nav {
+  background-color: #1f1f1f;
+  font-family: "Montserrat", sans-serif;
+}
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: medium;
+  position: absolute;
+  right: -40px;
+  left: 22vw;
+}
+
+main h4 {
+  font-family: "Montserrat", sans-serif;
   font-size: smaller;
   text-align: center;
 }
+main p {
+  color: #f8f8f8;
+}
+main h5 {
+  color: #f8f8f8;
+}
 
 .navbar-brand {
-    color: #fff;
-    
-  
-
+  color: #fff;
 }
+
 .navbar-toggler {
-    
-    background-color: transparent;
-  } 
-
-  .icon-bar{
-
-    color: white;
-  }
-
-.custom-logo{
-position: absolute;
-top: -35px;
+  background-color: transparent;
 }
 
-
-.nav-link{
-color: white;
-text-decoration: none;
-
+.icon-bar {
+  color: white;
 }
 
-.nav-link:hover{
-
-color: rgb(216, 20, 20);
+.custom-logo {
+  position: absolute;
+  top: -35px;
 }
 
-main{
-  font-family: Montserrat;
+.nav-link {
+  color: white;
+  text-decoration: none;
 }
 
-nav h1 {
-font-family: Montserrat;
-color: #ffff;
-font-size: medium;
-position: absolute;
-right: -40px;
-left: 22vw;
+.nav-link:hover {
+  color: rgb(216, 20, 20);
 }
 
-
-
-.img-header{
-height: 32vw;
+.img-header {
+  height: 32vw;
   width: 100%;
-
 }
 
-
-main p {
-
-  color: #f8f8f8;
-
-}
-
-main h5  {
-
-  color: #f8f8f8;
-}
-
-.carousel-caption{
-
-  background-color: #1f1f1fbb;
+.carousel-caption {
+  background-color: rgba(31, 31, 31, 0.7333333333);
 }
 
 .container-index {
-
- padding-top: 2vh;
+  padding-top: 2vh;
 }
 
-
-
-
-.stadium-text{
-
+.stadium-text {
   text-align: center;
   color: #000000;
 }
 
-
-.img-prox-partido{
+.img-prox-partido {
   height: 80px;
   width: 65px;
-
 }
 
 footer {
   padding-top: 5vh;
   background-color: #191919;
-  border-top: #4646467a;
+  border-top: rgba(70, 70, 70, 0.4784313725);
 }
 
-.divisor{
+.divisor {
   background-color: #000000;
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-
-
-.historia-text{
+.historia-text {
   color: #000000;
   font-size: smaller;
 }
 
-.mapa-mundi{
+.mapa-mundi {
   width: 100%;
   text-align: center;
 }
 
-.form{
-  list-style:none;
-
+.formu {
+  list-style: none;
 }
+
+.publi-banner {
+  text-align: center;
+}
+
+.title-noti {
+  color: rgb(216, 20, 20);
+  font-size: large;
+}
+
+.p-noti {
+  color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

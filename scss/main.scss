@@ -1,0 +1,136 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+h6{
+    font-weight: bold;
+}
+
+
+  nav{
+  
+      background-color: #1f1f1f;
+      font-family: 'Montserrat', sans-serif;
+      
+      h1{
+        font-family: 'Montserrat', sans-serif;
+        color: #ffff;
+        font-size: medium;
+        position: absolute;
+        right: -40px;
+        left: 22vw;
+        }
+
+
+  }
+
+main {
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        font-size: smaller;
+        text-align: center;
+    }
+
+    p{
+        color: #f8f8f8;
+    }
+    h5{
+        color: #f8f8f8;
+    }
+  }
+
+.navbar-brand {
+    color: #fff;
+    }
+
+.navbar-toggler {
+        background-color: transparent;
+    } 
+    
+.icon-bar{
+        color: white;
+      }
+    
+.custom-logo{
+    position: absolute;
+    top: -35px;
+    }
+    
+    
+.nav-link{
+    color: white;
+    text-decoration: none;
+    }
+    
+.nav-link:hover{  
+     color: rgb(216, 20, 20);
+    }
+
+.img-header{
+    height: 32vw;
+    width: 100%;  
+        }
+
+.carousel-caption{
+background-color: #1f1f1fbb;
+ }
+
+
+.container-index {
+  padding-top: 2vh;
+  }
+
+.stadium-text{
+ text-align: center;
+color: #000000;
+          }
+
+.img-prox-partido{
+    height: 80px;
+    width: 65px;  
+          }
+          
+ footer {
+            padding-top: 5vh;
+            background-color: #191919;
+            border-top: #4646467a;
+          }
+
+.divisor{
+            background-color: #000000;
+           display: flex;
+           justify-content: center;
+           flex-wrap: wrap;
+          }
+          
+          
+          
+.historia-text{
+            color: #000000;
+            font-size: smaller;
+          }
+          
+.mapa-mundi{
+            width: 100%;
+            text-align: center;
+          }
+          
+.formu{
+      list-style:none;
+}
+
+.publi-banner {
+    text-align: center;
+}
+
+.title-noti{
+    color: rgb(216, 20, 20);
+    font-size: large;
+
+}
+
+.p-noti{
+    color: #000000;
+
+}
