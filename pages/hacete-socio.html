@@ -69,31 +69,69 @@
       </nav>
     </header>
     <main>
-      <div class="text-center formu">
-      <form action="#" method="post">
-        <ul>
-         <li>
-           <label for="nombre">Nombre:</label>
-           <input type="text" id="name" name="nombre">
-         </li>
-         <li>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido">
-          </li>
-         <li>
-           <label for="mail">Correo electrónico:</label>
-           <input type="email" id="mail" name="email">
-         </li>
-         <li>
-           <label for="dni">DNI:</label>
-           <input id="dni" name="dni">
-         </li>
-        </ul>
-        
-            <button type="submit">Asociarse!</button>
-       
-       </form>
-      </div>
+      <section class="Material-contact-section section-padding section-dark p-5 m-1">
+        <div class="container border rounded">
+            <div class="row m-1">
+               
+                <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <h1 class="section-title text-center">Registrate en River ID</h1>
+                </div>
+            </div>
+            <div class="row p-2">
+               
+                <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft text-center" data-wow-delay=".2s">
+  
+                  <div class="find-widget">
+                   Identificate
+                  </div>
+                  <div class="find-widget">
+                   Verifica tu identidad
+                  </div>
+                  <div class="find-widget">
+                   Crea tu cuenta
+                  </div>
+                  <div class="custom-img">
+                    <img src="../img/hacetesocio1.jpg" class="img-fluid">
+                  </div>
+                </div>
+                
+                <div class="col-md-6 wow animated fadeInRight p-3" data-wow-delay=".2s">
+                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                        <!-- NOMBRE -->
+                        <div class="form-group label-floating">
+                          <label class="control-label" for="name">Nombre Completo</label>
+                          <input class="form-control" id="name" type="text" name="name" required data-error="Por favor ingresar nombre completo">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- DOCUMENTO -->
+                        <div class="form-group label-floating">
+                          <label class="control-label" for="email">Documento</label>
+                          <input class="form-control" id="email" type="email" name="email" required data-error="Por favor ingresa numero de documento">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                         <!-- Nacionalidad -->
+                        <div class="form-group label-floating">
+                          <label class="control-label">Nacionalidad</label>
+                          <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Por favor ingresar nacionalidad">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                         <!-- Email -->
+                        <div class="form-group label-floating">
+                            <label for="message" class="control-label">Email</label>
+                            <input class="form-control" id="message" name="message" required data-error="Escribi tu EMAIL"></input>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                         <!-- Sumbit -->
+                        <div class="form-submit mt-5">
+                            <button class="btn btn-primary" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i>Asociarse!</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
     </main>
      <!-- Inicio del footer-->
      <footer class="text-white text-center border-top">
