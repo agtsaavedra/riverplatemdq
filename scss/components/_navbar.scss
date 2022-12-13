@@ -1,0 +1,43 @@
+
+nav{
+  
+    background-color: #1f1f1f;
+    font-family: 'Montserrat', sans-serif;
+    
+    h1{
+      font-family: 'Montserrat', sans-serif;
+      color: #ffff;
+      font-size: medium;
+      position: absolute;
+      right: -40px;
+      left: 22vw;
+      }
+
+
+}
+
+.navbar-brand {
+    color: #fff;
+    }
+
+        
+.nav-link:hover{  
+    color: rgb(216, 20, 20);
+   }
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    }
+
+
+.navbar-toggler {
+        background-color: transparent;
+ } 
+
+
+ .custom-logo{
+    position: absolute;
+    top: -35px;
+    }
+    

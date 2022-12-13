@@ -1,23 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-h6 {
-  font-weight: bold;
-}
-
-nav {
-  background-color: #1f1f1f;
-  font-family: "Montserrat", sans-serif;
-}
-nav h1 {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-size: medium;
-  position: absolute;
-  right: -40px;
-  left: 22vw;
 }
 
 main h4 {
@@ -32,98 +21,38 @@ main h5 {
   color: #f8f8f8;
 }
 
-.navbar-brand {
-  color: #fff;
-}
-
-.navbar-toggler {
-  background-color: transparent;
-}
-
 .icon-bar {
   color: white;
 }
 
-.custom-logo {
-  position: absolute;
-  top: -35px;
+.input-group-btn .btn {
+  margin: 0 0 7px 0;
 }
 
-.nav-link {
-  color: white;
-  text-decoration: none;
+.form-group.form-group-sm .input-group-btn .btn {
+  margin: 0 0 3px 0;
 }
 
-.nav-link:hover {
-  color: rgb(216, 20, 20);
+.form-group.form-group-lg .input-group-btn .btn {
+  margin: 0 0 9px 0;
 }
 
-.img-header {
-  height: 32vw;
-  width: 100%;
+.input-group .input-group-btn {
+  padding: 0 12px;
+}
+
+.btn {
+  color: red;
 }
 
 .carousel-caption {
   background-color: rgba(31, 31, 31, 0.7333333333);
 }
 
-.container-index {
-  padding-top: 2vh;
-}
-
-.stadium-text {
-  text-align: center;
-  color: #000000;
-}
-
-.img-prox-partido {
-  height: 80px;
-  width: 65px;
-}
-
 footer {
   padding-top: 5vh;
   background-color: #191919;
   border-top: rgba(70, 70, 70, 0.4784313725);
-}
-
-.divisor {
-  background-color: #000000;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.historia-text {
-  color: #000000;
-  font-size: smaller;
-}
-
-.mapa-mundi {
-  width: 100%;
-  text-align: center;
-}
-
-.formu {
-  list-style: none;
-}
-
-.publi-banner {
-  text-align: center;
-}
-
-.title-noti {
-  color: rgb(216, 20, 20);
-  font-size: large;
-}
-
-.p-noti {
-  color: #000000;
-}
-
-.date-noti {
-  color: #000000;
-  font-size: smaller;
 }
 
 .section-padding {
@@ -617,22 +546,6 @@ select.form-control[multiple] {
   height: 85px;
 }
 
-.input-group-btn .btn {
-  margin: 0 0 7px 0;
-}
-
-.form-group.form-group-sm .input-group-btn .btn {
-  margin: 0 0 3px 0;
-}
-
-.form-group.form-group-lg .input-group-btn .btn {
-  margin: 0 0 9px 0;
-}
-
-.input-group .input-group-btn {
-  padding: 0 12px;
-}
-
 .input-group .input-group-addon {
   border: 0;
   background: 0 0;
@@ -694,12 +607,86 @@ select.form-control[multiple] {
   height: auto;
 }
 
-.btn {
-  color: red;
+nav {
+  background-color: #1f1f1f;
+  font-family: "Montserrat", sans-serif;
+}
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: medium;
+  position: absolute;
+  right: -40px;
+  left: 22vw;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: rgb(216, 20, 20);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+}
+
+.custom-logo {
+  position: absolute;
+  top: -35px;
 }
 
 .titleform {
   color: rgb(216, 20, 20);
+}
+
+.historia-text {
+  color: #000000;
+  font-size: smaller;
+}
+
+.img-header {
+  height: 32vw;
+  width: 100%;
+}
+
+.container-index {
+  padding-top: 2vh;
+}
+
+.stadium-text {
+  text-align: center;
+  color: #000000;
+}
+
+.img-prox-partido {
+  height: 80px;
+  width: 65px;
+}
+
+.mapa-mundi {
+  width: 100%;
+  text-align: center;
+}
+
+.p-noti {
+  color: #000000;
+}
+
+.date-noti {
+  color: #000000;
+  font-size: smaller;
+}
+
+.title-noti {
+  color: rgb(216, 20, 20);
+  font-size: large;
 }
 
 /*# sourceMappingURL=styles.css.map */
