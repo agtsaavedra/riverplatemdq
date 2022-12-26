@@ -1,7 +1,9 @@
 
+$base-color: #1f1f1f;
+$color-hover: rgb(216, 20, 20);
 nav{
   
-    background-color: #1f1f1f;
+    background-color: $base-color;
     font-family: 'Montserrat', sans-serif;
     
     h1{
@@ -22,7 +24,7 @@ nav{
 
         
 .nav-link:hover{  
-    color: rgb(216, 20, 20);
+    color: $color-hover;
    }
 
 .nav-link{
