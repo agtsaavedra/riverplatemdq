@@ -642,6 +642,25 @@ nav h1 {
   top: -35px;
 }
 
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contacto {
+  list-style: none;
+}
+
 .titleform {
   color: rgb(216, 20, 20);
 }
